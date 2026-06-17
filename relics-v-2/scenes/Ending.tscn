@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://ctk3sigioirrh"]
+
+[ext_resource type="Script" uid="uid://10fnh4sql83x" path="res://scripts/Ending.gd" id="1"]
+
+[node name="Ending" type="Control" unique_id=1566311392]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="BG" type="ColorRect" parent="." unique_id=757257865]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="RichTextLabel" parent="." unique_id=1727239655]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -600.0
+offset_right = 400.0
+grow_horizontal = 2
+grow_vertical = 0
+bbcode_enabled = true
+
+[node name="SkipBtn" type="Button" parent="." unique_id=969509327]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -130.0
+offset_top = -125.0
+offset_right = 130.0
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "타이틀로 돌아가기"
